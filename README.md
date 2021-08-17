@@ -1,40 +1,38 @@
-# General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-Your shell should not have any memory leaks
-No more than 5 functions per file
-All your header files should be include guarded
-Use system calls only when you need to (why?)
-# More Info
-## Output
-Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
-The only difference is when you print an error, the name of the program must be equivalent to your argv[0]
-Compilation
-Your shell will be compiled this way:
+# Simple_shell
 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-Testing
-Your shell should work like this in interactive mode:
+## Description
+This is a simple UNIX Command Line Intepreter that copies the functionalities of shell (sh).
 
-$ ./hsh
-($) /bin/ls
-hsh main.c shell.c
-($)
-($) exit
-$
-But also in non-interactive mode:
+## Installation
+Clone this repository into your working directory. Files should be compiled with GCC and the following flags: -Wall -Wextra -Werror -pedantic -Wno-format.
 
-$ echo "/bin/ls" | ./hsh
-hsh main.c shell.c test_ls_2
-$
-$ cat test_ls_2
-/bin/ls
-/bin/ls
-$
-$ cat test_ls_2 | ./hsh
-hsh main.c shell.c test_ls_2
-hsh main.c shell.c test_ls_2
-$
+## Usage
+Runs in  interactive or non-interactive mode.
+
+## Interactive Mode
+Run the program and wait for the prompt to appear. From there, you can type commands and when done exit with `ctrl+D` or `exit`.
+
+## Non-Interactive Mode
+Echo your desired command and pipe it into the program like this:
+
+echo `"ls" | .hsh`
+
+## AUTHORS
+This file contains the details of all the individuals that contributed to this shell project.
+
+## Features
+`1.` Display a prompt and wait for the user to type a command. A command line always ends with a new line.
+`2.` The prompt is displayed again each time a command has been executed.
+`3.` The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
+`4.` The command lines are made only of one word. No arguments will be passed to programs.
+`5.` If an executable cannot be found, prints an error message and display the prompt again.
+
+## Omissions
+PATH
+Built-ins
+Special characters : ", ', `, \, *, &, #
+Cursor movements
+Handling commands with arguments
+
+## Credits
+All codes written by Samora Kiage and Helidah Wagude.

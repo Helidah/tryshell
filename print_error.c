@@ -2,9 +2,9 @@
 
 /**
  * not_found - write error ("sh: 1: lss: not found")
- * @str: user's typed command
+ * @str: the user's typed command
  * @c_n: nth user's typed command
- * @env: bring in environmental variables linked list to write shell name
+ * @env: ensure to bring in environmental variables linked list to write shell name
  */
 void not_found(char *str, int c_n, list_t *env)
 {

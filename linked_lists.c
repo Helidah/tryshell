@@ -3,7 +3,7 @@
 /**
  * print_list - _print linked list
  * @h: linked list
- * Return: size of linked list
+ * Return: the size of the linked list
  */
 size_t print_list(list_t *h)
 {

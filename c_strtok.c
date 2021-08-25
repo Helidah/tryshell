@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * c_t_size - returns number of delim
+ * c_t_size - returns number of delimiter
  * @str: user's command typed into shell
  * @delm: delimeter (e.g. " ");
  * Return: number of tokens

@@ -13,7 +13,7 @@ void c_exit(char **str, list_t *env)
 }
 
 /**
- * _execve - execute command user typed into shell
+ * _execve - execute a command the user typed into shell
  * @s: command user typed
  * @env: environmental variable
  * @num: nth user command; to be used in error message

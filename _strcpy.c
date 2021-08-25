@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcpy - copies the string pointed to by src,
+ * _strcpy - copy the string pointed to by src,
  * including the terminating null byte (\0),
  * to the buffer pointed to by dest
  * @dest: copy source to this buffer

@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * c_atoi - custom atoi converts string to int
+ * c_atoi - this custom atoi converts string to int
  * @s: string
  * Return: number if success, -1 if string contains non-numbers
  */

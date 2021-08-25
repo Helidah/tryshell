@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * numlen - counts number of 0s in a tens power number
+ * numlen - it counts number of 0s in a tens power number
  * @n: number
  * Return: returns count of digits
  */

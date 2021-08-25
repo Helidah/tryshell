@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * c_ignore - custom ignores spaces and newlines
+ * c_ignore - it custom ignores spaces and newlines
  * (e.g. echo "ls\n ls" | ./a.out)
  * @str: envrionmental variables
  * Return: new string

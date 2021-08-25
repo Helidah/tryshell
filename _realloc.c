@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _realloc - allocate memory and set all values to 0
+ * _realloc - to allocate memory and set all values to 0
  * @ptr: pointer to the memory previously allocated (malloc(old_size))
  * @old_size: size previously allocated
  * @new_size: new size to reallocate

@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * find_env - find given environmental variable in linked list
+ * find_env - find the given environmental variable in linked list
  * @env: environmental variable linked list
  * @str: variable name
  * Return: idx of node in linked list

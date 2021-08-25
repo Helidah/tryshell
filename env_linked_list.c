@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * env_linked_list - creates a linked list from environmental variables
+ * env_linked_list - it creates a linked list from environmental variables
  * @env: environmental variables
  * Return: linked list
  */

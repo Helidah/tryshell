@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * main - creates a simple shell
+ * main - it creates a simple shell
  * @ac: argument count
  * @av: argument vectors
  * @env: environmental variables
